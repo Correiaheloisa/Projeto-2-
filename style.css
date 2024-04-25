@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .password-generator {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px 5px rgba(248, 140, 140, 0.5);
+  }
+  
+  .lock-icon {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(253, 122, 122);
+    font-size: 20px;
+    text-align: center;
+    color: rgb(250, 122, 118);
+  }
+  
+  .generate-btn {
+    background-color: rgb(248, 122, 122);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin:0 auto;
+  }
+  
+  .generate-btn:hover {
+    background-color: rgb(177, 28, 48);
+  }
+  
+  .copy-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .copiar-senha {
+    width: 20px;
+    vertical-align: middle;
+
+  }
+  
+  .copy-btn:focus {
+    color: crimson;
+    outline: none;
+  }
+  
+  .music-note {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .music-gif {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    display: none;
+  }
