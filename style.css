@@ -1,114 +1,116 @@
 body {
-  background-color: black;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-
-h1 {
-  text-shadow: 4px 4px #682f2f;
-  -webkit-text-stroke-color: #e4cfcf;
-  -webkit-text-stroke-width: 1px;
-  color: transparent;
-  margin: 0;
-  font-size: 3em;
-  position: relative;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.password-generator {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 0 20px 20px rgba(248, 140, 140, 0.5);
-}
-
-  
-  .lock-icon {
-    width: 50px;
-    margin-bottom: 30px;
-  }
-  
-  .password {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 30px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid rgb(253, 122, 122);
-    font-size: 30px;
+    background-color: black;
+    color: #fff;
+    font-family: Arial, sans-serif;
     text-align: center;
-    color: rgb(250, 122, 118);
+    margin: 0;
+    padding: 0;
   }
   
-  .generate-btn {
-    background-color: rgb(248, 122, 122);
-    color: rgb(255, 239, 239);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: block;
-    margin:0 auto;
+  
+  h1 {
+    text-shadow: 4px 4px #682f2f;
+    -webkit-text-stroke-color: #e4cfcf;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    margin: 0;
+    font-size: 3em;
+    position: relative;
   }
   
-  .generate-btn:hover {
-    background-color: rgb(177, 28, 48);
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   
-  .copy-btn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
+  .password-generator {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px 20px rgba(248, 140, 140, 0.5);
   }
   
-  .copiar-senha {
-    width: 10px;
-    vertical-align: middle;
-
-  }
+    
+    .lock-icon {
+      width: 100px;
+      margin-bottom: 30px;
+    }
+    
+    .password {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 30px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid rgb(253, 122, 122);
+      font-size: 30px;
+      text-align: center;
+      color: rgb(250, 122, 118);
+    }
+    
+    .generate-btn {
+      background-color: rgb(248, 122, 122);
+      color: rgb(255, 239, 239);
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      display: block;
+      margin:0 auto;
+    }
+    
+    .generate-btn:hover {
+      background-color: rgb(177, 28, 48);
+    }
+    
+    .copy-btn {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    
+    .copiar-senha {
+        background-color: #f0f0f0;
+      width: 10px;
+      vertical-align: middle;
   
-  .copy-btn:focus {
-    color: crimson;
-    outline: none;
-  }
+    }
+    
+    .copy-png:focus {
+        margin: center;
+      color: crimson;
+      outline: none;
+    }
+    
+    .music-note {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      width: 40px;
+      cursor: pointer;
+    }
+    
+    .music-gif {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 40px;
+      display: none;
+    }
+    footer {
+      text-align: center;
+      padding: lem;
+  ;background-color: transparent;
+  border: none;
+      border-bottom: 2px solid rgb(253, 122, 122);
+      margin-top: 10px;
+  color: #f0f0f0;
+  padding: 10px 0%;
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
   
-  .music-note {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    width: 40px;
-    cursor: pointer;
   }
-  
-  .music-gif {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 40px;
-    display: none;
-  }
-  footer {
-    text-align: center;
-    padding: lem;
-;background-color: transparent;
-border: none;
-    border-bottom: 2px solid rgb(253, 122, 122);
-    margin-top: 10px;
-color: #f0f0f0;
-padding: 10px 0%;
-position: fixed;
-width: 100%;
-bottom: 0%;
-
-}
